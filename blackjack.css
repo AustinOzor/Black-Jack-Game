@@ -1,0 +1,63 @@
+.game-body{
+    background-color: cornflowerblue;
+    color: white;
+    width: 650px;
+    margin: auto;
+    padding: 2rem;
+    margin-block: 5rem;
+    border-radius: 20px;
+    height: 550px;
+    box-shadow: 4px 8px 10px rgba(0, 0, 0, 0.6);
+    text-align: center;
+    background-image: url(images/blackjack.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-attachment: fixed;
+    background-position: center;
+    
+}
+.inner-body{
+        background-color: rgba(11, 11, 10, 0.756);
+    border-radius: 20px;
+    padding: .5rem;
+
+}
+h1{
+   
+    font-size: 3rem;
+    font-weight: 900;
+    background-color: rgba(11, 11, 10, 0.756);
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 8px  8px 10px rgba(255, 255, 255, 0.6);
+}
+p{
+    font-size: 1.5rem;
+    color: whitesmoke;
+}
+button{
+   
+    width: 150px;
+    padding: 10px;
+    background-color: coral;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    font-weight: bold;
+    font-size: 1.2rem;
+    margin: 10px;
+}
+button:hover{
+    background-color: darkorange;
+    transition: background-color .8s;
+    border: 2px solid white;
+}
+.score{
+    background-color: burlywood;
+    border-radius: 15px;
+    padding: 5px;
+}
+
+/* @media screen and (max-width 700px){}
+    
+} */

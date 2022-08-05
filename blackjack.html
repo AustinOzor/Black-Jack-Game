@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="blackjack.css">
+    <script src="https://kit.fontawesome.com/e422ec785d.js" crossorigin="anonymous"></script>
+     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <title>BlackJack Game</title>
+</head>
+<body>
+      
+        <div class="game-body">
+            <h1 data-aos="zoom-in" 
+            data-aos-duration="3000">BlackJack</h1>
+            <div class="inner-body" lass="score" data-aos="flip-left"
+                    data-aos-easing="ease-out-cubic"
+                    data-aos-duration="3000">
+                <p id="message-el">Want to play a round?</p>
+                <p id="card-el">Cards:</p>
+                
+                    <p id="sum-el">Sum:</p>
+             
+                <button onclick="startGame()">START GAME<i class="fa-solid fa-cards"></i></button><br>
+             
+                <button  onclick="newCard()">NEW CARD<i class="fa-solid fa-cards"></i></button>
+                <p id="player-el"></p>
+            </div>
+        </div>
+    <script src="blackjack.js"></script>
+      <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+</body>
+</html>
